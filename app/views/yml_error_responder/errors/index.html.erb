@@ -1,0 +1,14 @@
+<ul>
+  <% @errors.each do |namespace, error| %>
+    <li>
+      <h4><%= namespace%></h4>
+
+      <dl>
+        <% error.each do |key, value| %>
+          <dt><%= key %></dt>
+          <dd><%= value %></dd>
+        <% end %>
+      </dl>
+    </li>
+  <% end %>
+</ul>

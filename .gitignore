@@ -1,0 +1,4 @@
+.bundle/
+test/dummy/log/*.log
+pkg/
+.idea
